@@ -124,9 +124,9 @@ void CheckContact() {
 }
 ```
   
-  ![Alt Text](https://media.giphy.com/media/XDFRnSsHz3TUxmRBSy/giphy.gif)
+  ![Alt Text](https://media.giphy.com/media/UWcRcLwcw8LyuvL7qL/giphy.gif)
   
-  After all those check we can move our leg effector towards the desired position. It's done using simple ```Vector2.MoveTowards()``` function combined with easing out function, to make movement more natural.
+  After all those checks we can move our leg effector towards the desired position. It's done using simple ```Vector2.MoveTowards()``` function combined with adjustable easing out function, to make movement more natural.
   
   ```C#
   float targetX = currentTarget.position.x;
