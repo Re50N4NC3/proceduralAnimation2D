@@ -45,6 +45,8 @@ public class RaycastTarget : MonoBehaviour {
 
 ```
 
+![Alt Text](https://media.giphy.com/media/Q7ds6FdBQB03IzmXaO/giphy.gif)
+
 ## 5. Inverse kinematics
   It makes possible for us to calculate possible rotations of the bones, that will allow feet to reach desired point.
   
@@ -55,8 +57,6 @@ public class RaycastTarget : MonoBehaviour {
   ![Alt Text](https://github.com/Re50N4NC3/proceduralAnimation2D/blob/master/ikTrig.png)
   
   _We know lengths and positions of all the bones and all line segments, so it allows us to easily calculate what angle should be between red and blue bone, to reach designated point_
-
-  ![Alt Text](https://media.giphy.com/media/Q7ds6FdBQB03IzmXaO/giphy.gif)
   
   ## 6. Controlling and syncing the body
   Body is controlled by another raycasted target, which moves around and rest of the body tries to be in middle of both leg points and followed target. 
@@ -114,7 +114,7 @@ void CheckRange() {
   
   ![Alt Text](https://media.giphy.com/media/XDFRnSsHz3TUxmRBSy/giphy.gif)
   
-  After all those check we can move our leg effector towards the desired position. It's done using simple ```C# Vector2.MoveTowards()``` function combined with easing out function, to make movement more natural.
+  After all those check we can move our leg effector towards the desired position. It's done using simple ```Vector2.MoveTowards()``` function combined with easing out function, to make movement more natural.
   
   ```C#
     float targetX = currentTarget.position.x;
