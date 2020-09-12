@@ -1,8 +1,8 @@
-## proceduralAnimation2D
-Unity 2D humanoid procedural animation
+## Procedural animation showcase
+_Unity 2D humanoid procedural animation_
 
 ## 1. Overview
-  This is the explanation of a simple 2D procedural leg animation for bipedal character. Project uses inverse kinematics (IK) to calculate position of the leg, which adapts to the terrain.
+  This is the general idea explanation of the simple 2D procedural leg animation for bipedal character. Project uses inverse kinematics (IK) to calculate position of the leg, which adapts to the terrain.
   
   ![Alt Text](https://media.giphy.com/media/Y3S9FdlkHIynsJgPaj/giphy.gif)
 
