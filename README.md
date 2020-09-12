@@ -6,7 +6,7 @@ Unity 2D humanoid procedural animation
   
   ![Alt Text](https://media.giphy.com/media/Y3S9FdlkHIynsJgPaj/giphy.gif)
 
-**Results**
+_Results_
 
 ## 2. Idea
   Legs of the rigged character are chain of the two bones, end of which (feet) are always trying to reach for the raycasted target after it reaches certain range. To prevent unnatural, direct movement from point to point of both legs, there is added logic, which controls and syncs leg and body movement depending on the environment and current placement of the feet.
@@ -26,7 +26,7 @@ Unity 2D humanoid procedural animation
   [ ]picture of the trigonometry here
 
 ## 5. Raycasting desired position
-  There is an raycaster attached to the body which adjusts y coordinate of the desired position, represented here by the diamond icon, depending on the distance from the ground. It shows where leg will be placed if controller will be in certain range from current leg position.
+  There is an raycaster attached to the body which adjusts y coordinate of the desired position, represented here by the diamond icon, depending on the distance from the ground collider. It shows where leg will be placed if controller will be in certain range from current leg position.
 
 ```C#
 using UnityEngine;
@@ -53,7 +53,14 @@ public class RaycastTarget : MonoBehaviour {
 }
 
 ```
+
+  ![Alt Text](https://media.giphy.com/media/Q7ds6FdBQB03IzmXaO/giphy.gif)
   
+  ## 6. Controlling and syncing the body
+  
+  ## 7. Body and leg height adjustments
+  
+  ## 8. Todo
   
   
   
